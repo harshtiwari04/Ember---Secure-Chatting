@@ -19,4 +19,8 @@ Ember enforces true End-to-End Encryption (E2EE). The backend layer (Express/Soc
 * **Dual-Track Authentication Engine:** Features seamless identity orchestration allowing traditional native email/password onboarding alongside a streamlined, auto-verified Google OAuth 2.0 single-sign-on (SSO) gateway.
 * **XSS & CSRF Hardened Sessions:** Session integrity is maintained using cryptographically signed JSON Web Tokens (JWT) dispatched via `HttpOnly`, `Secure`, and `SameSite=Strict` browser cookies, establishing robust defenses against client-side script token theft.
 * **Automated Two-Factor Verification:** Includes an integrated email OTP pipeline for account registration and password recovery. The server enforces automatic token expiration using high-performance MongoDB Time-To-Live (TTL) indices.
+
+
+<img width="1527" height="960" alt="image" src="https://github.com/user-attachments/assets/c22a4880-4f71-42ef-8d7e-cdabedd8221f" />
+
 * **Reactive & Fluid UX UI:** Employs a low-latency, bi-directional communication layer powered by Socket.io to manage real-time user presence, active typing signals, and accurate read receipts. The UI combines a modern glassmorphic theme with smooth, declarative 3D canvas visuals implemented using React Three Fiber.
